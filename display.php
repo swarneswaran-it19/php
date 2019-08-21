@@ -3,7 +3,12 @@
 <body>
 <?php
 for($a=1;$a<=10;$a++)
-echo"the number's  are:$a<br>";
+{
+if($a==5)
+echo "five<br>";
+else
+echo "$a<br>";
+}
 ?>
 </body>
 </html>
